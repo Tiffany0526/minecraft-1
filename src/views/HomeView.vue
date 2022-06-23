@@ -2,16 +2,16 @@
   <main-navbar></main-navbar>
   <section>
     <div class="bg">
-      <div class="container">
-        <div class="title text-center text-light">
-          <img src="../assets/minecraft.png" class="img-fluid" alt="" />
-        </div>
+      <!-- <div class="container"> -->
+      <div class="title text-center text-light">
+        <img src="../assets/minecraft.png" class="img-fluid" alt="" />
       </div>
-      <div class="container">
-        <div class="server text-center">
-          <img src="../assets/minecraftserver.png" class="img-fluid" alt="" />
-        </div>
+      <!-- </div> -->
+      <!-- <div class="container"> -->
+      <div class="server text-center">
+        <img src="../assets/minecraftserver.png" class="img-fluid" alt="" />
       </div>
+      <!-- </div> -->
     </div>
   </section>
   <latest-news></latest-news>
