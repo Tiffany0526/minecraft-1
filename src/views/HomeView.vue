@@ -17,9 +17,10 @@
   <latest-news></latest-news>
   <!-- introduction -->
   <div class="intro">
-    <div class="container p-5 introduction">
-      <div class="row d-flex justify-content-evenly text-center fs-1">
-        <div class="col col-md-5 col-lg-4 mb-5">
+    <div class="container-fluid p-5 introduction">
+      <div class="row apppp">
+        
+        <!-- <div class="col col-md-5 col-lg-4 mb-5">
           <div class="mb-5">
             <img src="@/assets/homepage/zombie.png" alt="create-picture" />
           </div>
@@ -42,7 +43,36 @@
           <div class="introbg3 text-light">
             <div>蓋屬於自己的小天地！</div>
           </div>
-        </div>
+        </div> -->
+       
+    <div class="product-wrap">
+        <div class="product product1">1</div> 
+    </div>         
+    <div class="product-wrap">
+        <div class="product0 product2">2</div> 
+    </div>            
+    <div class="product-wrap">
+        <div class="product product3"><p>耐人尋味的關卡</p></div> 
+    </div>      
+  <div class="product-wrap">
+        <div class="product0 product4">有時生存有時創造</div> 
+    </div>         
+    <div class="product-wrap">
+        <div class="product product5">快開始你的麥塊吧!</div> 
+    </div>            
+    <div class="product-wrap">
+        <div class="product0 product6">6</div> 
+    </div>    
+  <div class="product-wrap">
+        <div class="product product7">7</div> 
+    </div>         
+    <div class="product-wrap">
+        <div class="product0 product8">8</div> 
+    </div>            
+    <div class="product-wrap">
+        <div class="product product9">蓋屬於自己的小天地！</div> 
+    </div>    
+
       </div>
     </div>
   </div>
@@ -152,5 +182,134 @@ section .bg .server {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.apppp{
+    position: relative;
+    width:450px;
+    height:450px;
+    margin: 0 auto;
+}
+.product-wrap{
+    background:blue;
+    position:relative;
+    float:left;
+    width:150px;
+    height:150px;
+    margin:0px;
+  
+}
+.product{  
+    background:pink;
+    position:absolute;
+    top:0;
+    left:0;
+    width:150px;
+    height:150px;
+    transition: 0.2s;
+}
+.product0{    
+    background:orange;
+    position:absolute;
+    top:0;
+    left:0;
+    width:150px;
+    height:150px;
+    transition: 0.2s;
+}
+.product1{
+  background: url(@/assets/homepage/zombie.png);
+  background-size: contain;
+}
+.product3 p{
+  text-align:center;
+  display: flex; /* ★ */
+  
+  align-items: center;
+}
+.product6{
+  background: green;
+  background: url(@/assets/homepage/castle.png);
+  background-size: contain;
+}
+.product8{
+  background: url(@/assets/homepage/group.png);
+  background-size: contain;
+}
+
+.product-wrap:hover .product1{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:0px;
+    background: grey;
+    background: url(@/assets/homepage/zombie.png);
+    background-size: contain;
+}
+.product-wrap:hover .product2{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:0px;
+  left:-150px;
+    background: green;
+}
+.product-wrap:hover .product3{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:0px;
+  left:-300px;
+    background: grey;
+}
+.product-wrap:hover .product4{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:-150px;
+    background: green;
+}
+.product-wrap:hover .product5{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:-50px;
+    background: grey;
+}
+.product-wrap:hover .product6{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:-150px;
+  left:-300px;
+    background: green;
+    background: url(@/assets/homepage/castle.png);
+    background-size: contain;
+}
+.product-wrap:hover .product7{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:-300px;
+    background: grey;
+}
+.product-wrap:hover .product8{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:-300px;
+  left:-150px;
+    background: green;
+    background: url(@/assets/homepage/group.png);
+    background-size: contain;
+}
+.product-wrap:hover .product9{
+    z-index:100;
+    width: 450px;
+    height:450px;
+  top:-300px;
+  left:-300px;
+    background: grey;
 }
 </style>
